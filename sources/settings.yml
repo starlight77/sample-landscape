@@ -17,7 +17,7 @@ foundation: DEMO
 #
 # url: <LANDSCAPE_URL>
 #
-url: http://127.0.0.1:8000
+url: https://fairstack.landscape2.io
 
 # Analytics (optional)
 #
@@ -37,7 +37,7 @@ url: http://127.0.0.1:8000
 #
 # base_path: /<BASE_PATH>
 #
-base_path: /sample-landscape
+#base_path: /
 
 # Categories (optional)
 #
@@ -177,9 +177,9 @@ groups:
     categories:
       - Category 1
       - Category 2
-  - name: Only category 2
-    categories:
-      - Category 2
+#  - name: Only category 2
+#    categories:
+#      - Category 2
 
 # Header (optional)
 #

@@ -9,8 +9,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             description: This is the description of item 1
             homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 1
+            logo: dataspace.svg
+            name: DataSpace
             project: graduated
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
@@ -18,16 +18,63 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             description: This is the description of item 2
             homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 2
+            logo: semstore.svg
+            name: SemStore
             project: sandbox
             repo_url: https://github.com/cncf/landscape2
             twitter: https://twitter.com/CloudNativeFdn
           - item:
             description: This is the description of item 3
             homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 3
+            logo: datalab.svg
+            name: DataLab
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 1
+            homepage_url: https://cncf.io
+            logo: dataspace.svg
+            name: DataSpace1
+            project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 2
+            homepage_url: https://cncf.io
+            logo: semstore.svg
+            name: SemStore1
+            project: sandbox
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            description: This is the description of item 3
+            homepage_url: https://cncf.io
+            logo: datalab.svg
+            name: DataLab1
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 1
+            homepage_url: https://cncf.io
+            logo: dataspace.svg
+            name: DataSpace2
+            project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 2
+            homepage_url: https://cncf.io
+            logo: semstore.svg
+            name: SemStore2
+            project: sandbox
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - item:
+            description: This is the description of item 3
+            homepage_url: https://cncf.io
+            logo: datalab.svg
+            name: DataLab2
+
       - subcategory:
         name: Subcategory 1-2
         items:
