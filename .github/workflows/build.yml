@@ -31,6 +31,9 @@ jobs:
 
       - name: Commit built landscape to build branch
         run: |
+          git config --global safe.directory `pwd`
+          git config --global user.name "duyu"
+          git config --global user.email "starlight0601@163.com"
           git fetch origin build:build
           git checkout build
           git branch --set-upstream-to=origin/build build
