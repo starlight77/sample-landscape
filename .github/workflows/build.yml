@@ -34,8 +34,8 @@ jobs:
           git config --global safe.directory `pwd`
           git config --global user.name "duyu"
           git config --global user.email "starlight0601@163.com"
-          git fetch origin build:build || echo "Build branch doesn't exist, creating a new one"
-          git checkout build || git checkout -b build  # 如果没有 build 分支，则创建并切换到该分支
+          git fetch origin build:build
+          git checkout build
           git branch --set-upstream-to=origin/build build
           git pull
           rm -rf *
