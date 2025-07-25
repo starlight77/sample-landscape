@@ -9,7 +9,7 @@
 #
 # foundation: <FOUNDATION_NAME>
 #
-foundation: DEMO
+foundation: FairStack
 
 # Url (required)
 #
@@ -17,7 +17,7 @@ foundation: DEMO
 #
 # url: <LANDSCAPE_URL>
 #
-url: http://127.0.0.1:8000
+url: https://fairStack.landscape2.io
 
 # Analytics (optional)
 #
@@ -37,7 +37,7 @@ url: http://127.0.0.1:8000
 #
 # base_path: /<BASE_PATH>
 #
-base_path: /sample-landscape
+base_path: /
 
 # Categories (optional)
 #
@@ -104,12 +104,12 @@ colors:
 #       - value: <SUBCATEGORY1_NAME>
 #       - value: <SUBCATEGORY2_NAME>
 #
-featured_items:
-  - field: maturity
-    options:
-      - value: graduated
-        order: 1
-        label: Graduated
+#featured_items:
+#  - field: maturity
+#    options:
+#      - value: graduated
+#        order: 1
+#        label: Graduated
 
 # Footer (optional)
 #
@@ -156,7 +156,7 @@ footer:
 #
 # grid_items_size: <small|medium|large>
 #
-grid_items_size: large
+grid_items_size: medium
 
 # Groups (optional)
 #
@@ -172,14 +172,14 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
-groups:
-  - name: Some categories
-    categories:
-      - Category 1
-      - Category 2
-  - name: Only category 2
-    categories:
-      - Category 2
+#groups:
+#  - name: Some categories
+#    categories:
+#      - Category 1
+#      - Category 2
+#  - name: Only category 2
+#    categories:
+#      - Category 2
 
 # Header (optional)
 #
