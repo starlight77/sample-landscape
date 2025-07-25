@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on:
-      labels: windows-latest
+      labels: ubuntu-latest
     container:
       image: public.ecr.aws/g6m3a0y9/landscape2
       options: --user root
