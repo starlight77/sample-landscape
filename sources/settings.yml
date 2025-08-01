@@ -35,9 +35,9 @@ url: https://fairStack.landscape2.io
 # landscape is prepared to be hosted at the root of the domain. However, if the
 # landscape will be hosted in a subpath, this value must be set accordingly.
 #
-# base_path: /<BASE_PATH>
+# base_path: /<BASE_PATH>fairstack-landscape
 #
-base_path: /fairstack-landscape
+base_path: /
 
 # Categories (optional)
 #
