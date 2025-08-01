@@ -3,109 +3,352 @@ landscape:
     name: Category 1
     subcategories:
       - subcategory:
-        name: Subcategory 1-1
+        name: 领域软件
         items:
           - item:
-          # 项目名称（必填）
-            name: DataSpace
+            # 项目名称（必填）
+            name: EcoFlow
             # 主页网址（必填）
             homepage_url: https://cncf.io
             # logo 文件名（必填）。logo 文件应放在 landscape 的 logo 路径（如 `hosted-logos`）下。仅支持文件名，不支持 URL，且必须为 SVG 文件。
-            logo: dataspace.svg
+            logo: EcoFlow.svg
             # 项目描述（选填）。如果没有提供描述，则会优先使用主仓库的描述或 Crunchbase 的组织描述。此描述会被用于搜索功能的索引。
-            description: This is the description of DataSpace
+            description: 生态领域
 
           - item:
-            name: SemStore
+            name: iSpace
             homepage_url: https://cncf.io
-            logo: semstore.svg
-            description: This is the description of item 2
+            logo: ISpace.svg
+            description: 空间领域
 
           - item:
-            name: DataLab
+            name: Galaxy
             homepage_url: https://cncf.io
-            logo: datalab.svg
-            description: This is the description of item 3\
-          - item:
-            name: SemStore1
-            homepage_url: https://cncf.io
-            logo: semstore.svg
-            description: This is the description of item 2
-
-          - item:
-            name: DataLab1
-            homepage_url: https://cncf.io
-            logo: datalab.svg
-            description: This is the description of item 3
-
-          - item:
-            name: SemStore2
-            homepage_url: https://cncf.io
-            logo: semstore.svg
-            description: This is the description of item 2
-
-          - item:
-            name: DataLab2
-            homepage_url: https://cncf.io
-            logo: datalab.svg
-            description: This is the description of item 3
+            logo: Galaxy.svg
+            description: 生命领域
 
       - subcategory:
-        name: Subcategory 1-2
+        name: 领域算子(141)
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 4
+            name: kongjian
             homepage_url: https://cncf.io
-            logo: logo.svg
-            name: Item 4
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            logo: kongjian.svg
+            description: 空间领域
+
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 5
+            name: shengtai
             homepage_url: https://cncf.io
-            logo: logo.svg
-            name: Item 5
-            repo_url: https://github.com/cncf/landscape2
+            logo: shengtai.svg
+            description: 生态领域
+          - item:
+            name: nongye
+            homepage_url: https://cncf.io
+            logo: nongye.svg
+            description: 农业领域
+          - item:
+            name: tianwen
+            homepage_url: https://cncf.io
+            logo: tianwen.svg
+            description: 天文领域
+          - item:
+            name: qingzang
+            homepage_url: https://cncf.io
+            logo: qingzang.svg
+            description: 青藏高原领域
+          - item:
+            name: guance
+            homepage_url: https://cncf.io
+            logo: guance.svg
+            description: 对地观测领域
+          - item:
+            name: shengwu
+            homepage_url: https://cncf.io
+            logo: shengwu.svg
+            description: 生物信息领域
   - category:
     name: Category 2
     subcategories:
       - subcategory:
-        name: Subcategory 2-1
+        name: 汇聚管理
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 6
+            name: DataSpace
             homepage_url: https://cncf.io
-            logo: logo.svg
-            name: Item 6
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+            logo: DataSpace.svg
+            description: DataSpace
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 7
+            name: SemStore
             homepage_url: https://cncf.io
-            logo: logo.svg
-            name: Item 7
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - item:
-            description: This is the description of item 8
-            homepage_url: https://cncf.io
-            logo: logo.svg
-            name: Item 8
+            logo: SemStore.svg
+            description: SemStore
       - subcategory:
-        name: Subcategory 2-2
+        name: 处理分析
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
+            name: DataLab
             homepage_url: https://cncf.io
-            logo: logo.svg
-            name: Item 9
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-
+            logo: DataLab.svg
+            description: DataLab
+          - item:
+            name: DataQ
+            homepage_url: https://cncf.io
+            logo: DataQ.svg
+            description: DataQ
+          - item:
+            name: OnlyOffice
+            homepage_url: https://cncf.io
+            logo: OnlyOffice.svg
+            description: OnlyOffice
+          - item:
+            name: Kibana
+            homepage_url: https://cncf.io
+            logo: Kibana.svg
+            description: Kibana
+          - item:
+            name: Zeppelin
+            homepage_url: https://cncf.io
+            logo: Zeppelin.svg
+            description: Zeppelin
+          - item:
+            name: Jupyter Notebook
+            homepage_url: https://cncf.io
+            logo: JupyterNotebook.svg
+            description: Juper Notebook
+          - item:
+            name: DataEase
+            homepage_url: https://cncf.io
+            logo: DataEase.svg
+            description: DataEase
+      - subcategory:
+        name: 发布共享
+        items:
+          - item:
+            name: InstDB
+            homepage_url: https://cncf.io
+            logo: InstDB.svg
+            description: InstDB
+          - item:
+            name: SemPub
+            homepage_url: https://cncf.io
+            logo: SemPub.svg
+            description: SemPub
+          - item:
+            name: Dr.DI
+            homepage_url: https://cncf.io
+            logo: Dr.DI.svg
+            description: Dr.DI
+          - item:
+            name: SEEK
+            homepage_url: https://cncf.io
+            logo: SEEK.svg
+            description: SEEK
+          - item:
+            name: UJCMS
+            homepage_url: https://cncf.io
+            logo: UJCMS.svg
+            description: UJCMS
+      - subcategory:
+        name: 要素化流通
+        items:
+          - item:
+            name: findata
+            homepage_url: https://cncf.io
+            logo: findata.svg
+            description: findata
+          - item:
+            name: BDWare
+            homepage_url: https://cncf.io
+            logo: BDWare.svg
+            description: BDWare
+          - item:
+            name: Double
+            homepage_url: https://cncf.io
+            logo: Double.svg
+            description: Double
+      - subcategory:
+        name: 互联互通
+        items:
+          - item:
+            name: BigFlow
+            homepage_url: https://cncf.io
+            logo: BigFlow.svg
+            description: BigFlow
+      - subcategory:
+        name: 支撑管理
+        items:
+          - item:
+            name: DPGuard
+            homepage_url: https://cncf.io
+            logo: DPGuard.svg
+            description: DPGuard
+          - item:
+            name: NGINX
+            homepage_url: https://cncf.io
+            logo: NGINX.svg
+            description: NGINX
+          - item:
+            name: NginxProxy Manager
+            homepage_url: https://cncf.io
+            logo: NginxProxyManager.svg
+            description: NginxProxy Manager
+          - item:
+            name: Grafand
+            homepage_url: https://cncf.io
+            logo: Grafand.svg
+            description: Grafand
+      - subcategory:
+        name: 通用算子
+        items:
+          - item:
+            name: cunchu
+            homepage_url: https://cncf.io
+            logo: 存储.svg
+            description: cunchu
+          - item:
+            name: jichu
+            homepage_url: https://cncf.io
+            logo: 基础.svg
+            description: jichu
+          - item:
+            name: wenjianjiaohu
+            homepage_url: https://cncf.io
+            logo: 文件.svg
+            description: wenjianjiaohu
+          - item:
+            name: jiqixuexi
+            homepage_url: https://cncf.io
+            logo: 机器学习.svg
+            description: jiqixuexi
+          - item:
+            name: jiaoben
+            homepage_url: https://cncf.io
+            logo: 脚本.svg
+            description: jiaoben
+          - item:
+            name: liuchuli
+            homepage_url: https://cncf.io
+            logo: 流处理.svg
+            description: liuchuli
+          - item:
+            name: keshihua
+            homepage_url: https://cncf.io
+            logo: 可视化.svg
+            description: keshihua
+          - item:
+            name: qingxi
+            homepage_url: https://cncf.io
+            logo: 清洗.svg
+            description: qingxi
+  - category:
+    name: Category 3
+    subcategories:
+      - subcategory:
+        name: 基础框架
+        items:
+          - item:
+            name: PandaDB
+            homepage_url: https://cncf.io
+            logo: PandaDB.svg
+            description: PandaDB
+          - item:
+            name: πFlow
+            homepage_url: https://cncf.io
+            logo: πFlow.svg
+            description: πFlow
+          - item:
+            name: FairMan
+            homepage_url: https://cncf.io
+            logo: FairMan.svg
+            description: FairMan
+          - item:
+            name: lynx
+            homepage_url: https://cncf.io
+            logo: lynx.svg
+            description: lynx
+  - category:
+    name: Category 4
+    subcategories:
+      - subcategory:
+        name: 大数据引擎
+        items:
+          - item:
+            name: Flink
+            homepage_url: https://cncf.io
+            logo: Flink.svg
+            description: Flink
+          - item:
+            name: Spark
+            homepage_url: https://cncf.io
+            logo: Spark.svg
+            description: Spark
+          - item:
+            name: MongoDB
+            homepage_url: https://cncf.io
+            logo: MongoDB.svg
+            description: MongoDB
+          - item:
+            name: QuestDB
+            homepage_url: https://cncf.io
+            logo: QuestDB.svg
+            description: QuestDB
+          - item:
+            name: Redis
+            homepage_url: https://cncf.io
+            logo: Redis.svg
+            description: Redis
+          - item:
+            name: MinIO
+            homepage_url: https://cncf.io
+            logo: MinIO.svg
+            description: MinIO
+          - item:
+            name: LakeFS
+            homepage_url: https://cncf.io
+            logo: LakeFS.svg
+            description: LakeFS
+          - item:
+            name: sftpgo
+            homepage_url: https://cncf.io
+            logo: sftpgo.svg
+            description: sftpgo
+          - item:
+            name: MariaDB
+            homepage_url: https://cncf.io
+            logo: MariaDB.svg
+            description: MariaDB
+          - item:
+            name: Hadoop
+            homepage_url: https://cncf.io
+            logo: Hadoop.svg
+            description: Hadoop
+          - item:
+            name: PostgreSQL
+            homepage_url: https://cncf.io
+            logo: PostgreSQL.svg
+            description: PostgreSQL
+          - item:
+            name: InfluxDB
+            homepage_url: https://cncf.io
+            logo: InfluxDB.svg
+            description: InfluxDB
+          - item:
+            name: Elasticsearch
+            homepage_url: https://cncf.io
+            logo: Elasticsearch.svg
+            description: Elasticsearch
+          - item:
+            name: Neo4j
+            homepage_url: https://cncf.io
+            logo: Neo4j.svg
+            description: Neo4j
+          - item:
+            name: RabiitMQ
+            homepage_url: https://cncf.io
+            logo: RabiitMQ.svg
+            description: RabiitMQ
+          - item:
+            name: ETCD
+            homepage_url: https://cncf.io
+            logo: ETCD.svg
+            description: ETCD
