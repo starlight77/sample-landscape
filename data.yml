@@ -18,7 +18,7 @@ landscape:
           - item:
             name: iSpace
             homepage_url: https://cncf.io
-            logo: ISpace.svg
+            logo: Ispace.svg
             description: 空间领域
 
           - item:
