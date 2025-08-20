@@ -36,7 +36,7 @@ url: https://fairStack.landscape2.io
 # landscape will be hosted in a subpath, this value must be set accordingly.
 #
 # base_path: /<BASE_PATH>fairstack-landscape
-#
+#本地环境用/,提交仓库用/fairstack-landscape
 base_path: /fairstack-landscape
 
 # Categories (optional)
@@ -131,20 +131,20 @@ colors:
 #   logo: <LOGO_URL>  # Foundation logo featured on the footer
 #   text: <TEXT>      # Copyright notice, for example
 #
-footer:
-  links:
-    facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
-    flickr: "https://www.flickr.com/photos/143247548@N03/albums"
-    github: "https://github.com/cncf"
-    homepage: "https://cncf.io"
-    instagram: "https://www.instagram.com/humans.of.cloudnative/"
-    linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
-    slack: "https://slack.cncf.io/"
-    twitch: "https://www.twitch.tv/cloudnativefdn"
-    twitter: "https://twitter.com/cloudnativefdn"
-    wechat: "https://www.cncf.io/wechat/"
-    youtube: "https://www.youtube.com/c/cloudnativefdn"
-  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
+#footer:
+#  links:
+#    facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
+#    flickr: "https://www.flickr.com/photos/143247548@N03/albums"
+#    github: "https://github.com/cncf"
+#    homepage: "https://cncf.io"
+#    instagram: "https://www.instagram.com/humans.of.cloudnative/"
+#    linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
+#    slack: "https://slack.cncf.io/"
+#    twitch: "https://www.twitch.tv/cloudnativefdn"
+#    twitter: "https://twitter.com/cloudnativefdn"
+#    wechat: "https://www.cncf.io/wechat/"
+#    youtube: "https://www.youtube.com/c/cloudnativefdn"
+#  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
 
 # Grid items size (optional)
 #
@@ -192,8 +192,8 @@ grid_items_size: medium
 #
 header:
   links:
-    github: "https://github.com/cncf/landscape2"
-  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
+    github: "https://github.com/starlight77/fairstack-landscape.git"
+  logo: "https://raw.githubusercontent.com/starlight77/fairstack-landscape/3c665074d7f14e1df37e6acfc016c7be810f30f0/logos/logo.svg"
 
 # Images (optional)
 #
